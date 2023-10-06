@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="logodiv"><img alt="Aquila logo" src="./assets/logo.png" class="logo"></div>
+  <KayitOl/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import KayitOl from './components/KayitOl.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    KayitOl
   }
 }
 </script>
@@ -22,5 +22,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.logodiv .logo{
+  width: 10rem;
+  height: auto;
 }
 </style>
